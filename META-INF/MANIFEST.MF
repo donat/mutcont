@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mutable Container Plug-in
+Bundle-SymbolicName: hu.donat.mutcont;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: hu.donat.mutcont
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.jdt.core,
+ org.eclipse.equinox.common,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ com.google.guava
+Bundle-Activator: hu.donat.mutcont.Activator
